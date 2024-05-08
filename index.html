@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="">
+    <div class="count hide">
+        3
+    </div>
+    <div class="main-container ">
+        <h1>Press any key to start</h1>
+        <div class="scores">
+            <h2>Curr Score  <span id="curr-score">0</span> </h2>
+            <h2>Maxx Score   <span id="max-score">0</span> </h2>
+        </div>
+        <div class="game-container">
+            <div class="game-ele red "></div>
+            <div class="game-ele blue "></div>
+            <div class="game-ele yellow "></div>
+            <div class="game-ele green "></div>
+        </div>
+    </div>
+    <button class="start">Start</button>
+    <div class="when-its-over hide">
+        <h1 id="game-over">GAME OVER</h1>
+        <button class="start-again">Start Again</button>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
