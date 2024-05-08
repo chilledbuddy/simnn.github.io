@@ -55,6 +55,9 @@ function gameOver() {
     let text = document.querySelector("#game-over");
     let startBtn = document.querySelector(".start");
     let mainContainer = document.querySelector(".main-container");
+    let msg = document.querySelector("#max-score-update");
+    msg.innerText = "Your Score : " + currScore + " max : " + maxScore; 
+    
     startBtn.classList.add("hide");
     document.querySelector(".when-its-over").classList.remove("hide");
     mainContainer.classList.add("hide");
